@@ -16,6 +16,15 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Viguez",
   description: "Viguez Landing Page",
+  icons: {
+    icon: "/logo.svg",
+    apple: "/logo.svg",
+  },
+  openGraph: {
+    title: "Viguez",
+    description: "Viguez Landing Page",
+    images: ["/logo.svg"],
+  },
 };
 
 export default function RootLayout({
