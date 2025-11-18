@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 
 export default function HeroSection() {
   return (
-    <section className="relative h-screen w-full overflow-hidden">
+    <section className="relative h-screen w-full overflow-hidden" id="home">
       <div className="absolute inset-0 z-0">
         <Image
           src="/bg-hero-section.jpg"
@@ -29,7 +29,9 @@ export default function HeroSection() {
             <br />
             Sistemas de
             <br />
-            qualidade
+            <span className="outline-primary underline underline-offset-8 decoration-primary decoration-4">
+              qualidade
+            </span>
           </h1>
           <Button size={"lg"} variant="outline">
             Nossos serviços
