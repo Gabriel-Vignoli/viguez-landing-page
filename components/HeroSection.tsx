@@ -19,10 +19,10 @@ export default function HeroSection() {
       {/* Content */}
       <div className="relative z-10 h-full flex items-center justify-start px-mobile md:px-tablet lg:px-laptop xl:px-desktop 2xl:px-big">
         <div className="max-w-4xl text-left">
-          <p className="text-sm md:text-lg font-sans text-black mb-4 font-light tracking-[0.6rem] uppercase">
+          <p className="text-sm md:text-lg font-sans mb-4 font-light tracking-[0.6rem] uppercase">
             Suba de nível
           </p>
-          <h1 className="text-4xl sm:text-6xl lg:text-7xl font-normal text-black mb-8 leading-tight font-sans">
+          <h1 className="text-4xl sm:text-6xl lg:text-7xl font-normal mb-8 leading-tight font-sans">
             Transformamos
             <br />
             ideias em

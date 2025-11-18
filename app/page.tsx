@@ -1,3 +1,4 @@
+import AboutUs from "@/components/AboutUs";
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 
@@ -6,6 +7,7 @@ export default function Home() {
     <>
     <Header />
     <HeroSection />
+    <AboutUs />
     </>
   )
 }
